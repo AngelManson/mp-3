@@ -3,6 +3,11 @@ import styled from "styled-components";
 const StyledMain = styled.main`
     height: 100vh;
     width: 70%;
+    @media screen and (max-width: 1000px){
+        height: 100vh;
+        width: 100%;
+        font-size: calc(2px + 2vw);
+    }
 `;
 
 const StyledHeading = styled.h2`

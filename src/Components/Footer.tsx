@@ -8,7 +8,7 @@ const StyledFooter = styled.footer`
 export default function Footer() {
     return (
         <StyledFooter>
-            <p>All Rights Reserved by Angel Manson <Link to={``}>Credits</Link> &#169;</p>
+            <p>All Rights Reserved by Angel Manson <Link to={`/`}>Credits</Link> &#169;</p>
         </StyledFooter>
     )
 }

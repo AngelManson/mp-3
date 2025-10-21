@@ -20,12 +20,19 @@ const StyledInput = styled.input`
     border-radius: 35%;
     margin: 0.5%;
     color: #a88080;
+    @media screen and (max-width: 1000px){
+        height: 2.5vh;
+    }
 `;
 
 const StyledButton = styled.button`
     background-color: #bd9191;
     border-radius: 25%;
-    margin: 1%;
+    margin: 1.5%;
+    @media screen and (max-width: 1000px){
+        font-size: calc(2px + 2vw);
+        color: black;
+    }
 `;
 
 export default function Calculator() {

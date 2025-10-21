@@ -4,6 +4,11 @@ import image from "../../src/IMG_1488.jpeg";
 const StyledMain = styled.main`
     height: 100vh;
     width: 70%;
+    @media screen and (max-width: 1000px){
+        height: 100vh;
+        width: 100%;
+        font-size: calc(2px + 2vw);
+    }
 `;
 
 const StyledSubHeading = styled.h2`

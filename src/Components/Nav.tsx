@@ -6,6 +6,9 @@ const StyledNav = styled.nav`
     width: 30%;
     display: flex;
     justify-content: center;
+    @media screen and (max-width: 1000px){
+        width: 100%;
+    }
 `;
 
 const StyledUl = styled.ul`
@@ -16,6 +19,9 @@ const StyledUl = styled.ul`
     display: flex;
     flex-direction: column;
     align-items: center;
+    @media screen and (max-width: 1000px){
+        flex-direction: row;
+    }
 `;
 
 const StyledLi = styled.li`
@@ -24,6 +30,10 @@ const StyledLi = styled.li`
     padding: 2%; 
     margin: 4%; 
     width: 80%;
+    @media screen and (max-width: 1000px){
+        padding: 0.5%;
+        margin: 0.5%;
+    }
 `;
 
 const StyledLink = styled(Link)`

@@ -23,6 +23,9 @@ const StyledContainer = styled.div`
     display: flex;
     flex-direction: row;
     width: 100%;
+    @media screen and (max-width: 1000px){
+        flex-direction: column;
+    }
 `;
 
 export default function Root() {
@@ -38,11 +41,9 @@ export default function Root() {
                     <Route path={`/projects`} element={<Projects/>}/>
                     <Route path={`/experiences`} element={<Experiences/>}/>
                     <Route path={`/leadership`} element={<Leadership/>}/>
-                    <Route path={``} element={<Home/>}/>
                 </Routes>
             </StyledContainer>
             <Footer/>
-            {/*Is this how to do it????*/}
         </StyledPageWrapper>
     )
 }

@@ -4,6 +4,11 @@ const StyledMain = styled.main`
     height: 100vh;
     width: 70%;
     font-size: calc(2px + 1vw);
+    @media screen and (max-width: 1000px){
+        height: 100vh;
+        width: 100%;
+        font-size: calc(2px + 2vw);
+    }
 `;
 
 const StyledHeading = styled.h2`
@@ -13,7 +18,7 @@ const StyledHeading = styled.h2`
 
 const StyledSubHeading = styled.h4`
     margin: 1%;
-    text-align: left;
+    text-align: center;
 `;
 
 const StyledUL = styled.ul`
