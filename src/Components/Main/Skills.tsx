@@ -38,6 +38,12 @@ const StyledLi = styled.li`
     margin: 0.75%;
     border-radius: 15px; 
     text-align: center;
+    @media screen and (max-width: 1000px){
+        font-size: calc(2px + 1.15vw);;
+    }
+    @media screen and (max-width: 750px){
+        font-size: calc(2px + 2vw);
+    }
 `;
 
 export default function Skills() {
